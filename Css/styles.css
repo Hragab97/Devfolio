@@ -1,0 +1,539 @@
+
+.item p {
+    color: #4e4e4e;
+    background-color: white;
+    font-size: 12px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.item span {
+    color: #0078ff;
+}
+
+.fa-plus {
+    font-size: 1.5rem;
+    font-weight: 100;
+    border: 2.5px solid  #0078ff;
+    padding: 0.3rem 0.4rem;
+    border-radius: 50%;
+    margin-top: -200%;
+    margin-left: -50%;
+}
+
+.img-item {
+    overflow: hidden;
+}
+
+.item img {
+    transition: 1s ease;
+}
+
+
+.item img:hover {
+    transform: scale(1.5);
+}
+
+.line {
+    width: 5%;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+nav {
+    z-index: 1;
+}
+
+nav {
+    color: white;
+}
+
+.collapse ul li {
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.collapse ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: 0.2s;
+}
+
+.collapse ul li:hover::after {
+    width: 80%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.feedback {
+    background-image:linear-gradient(rgba(0, 136, 233, 0.726), rgba(0, 122, 210, 0.5)), url(../images/testimonial/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+.statistics {
+    background-image:linear-gradient(rgba(0, 136, 233, 0.726), rgba(0, 122, 210, 0.5)), url(../images/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.carousel-indicators [data-bs-target] { 
+    width: 10px;
+    height: 10px;
+}
+
+
+.carousel-indicators {
+    bottom: -50px;
+
+}
+
+.card-footer img {
+    width: 10%;
+}
+
+.blog h4 {
+    color: black;
+}
+
+.card-category {
+
+    margin-left: 35%;
+    margin-top: -10%;
+}
+
+.card-category h6 {
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 40%;
+}
+
+.home {
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.home h1 {
+    font-size: 4rem;
+}
+
+.home span {
+    font-size: 2rem;
+}
+
+.home span::after {
+    content: '|';
+    height: 50px;
+    width: 8px;
+    animation: typing 14s  infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'D|';
+    }
+    1.3% {
+        content: 'De|';
+    }
+    2.6% {
+        content: 'Des|';
+    }
+    3.9% {
+        content: 'Desi|';
+    }
+    5.2% {
+        content: 'Desig|';
+    }
+    6.5% {
+        content: 'Design|';
+    }
+    7.8% {
+        content: 'Designe|';
+    }
+    9.1% {
+        content: 'Designer|';
+    }
+    10.4% {
+        content: 'Designe|';
+    }
+    11.7% {
+        content: 'Design|';
+    }
+    13% {
+        content: 'Desig|';
+    }
+    14.3% {
+        content: 'Desi|';
+    }
+    15.6% {
+        content: 'Des|';
+    }
+    16.9% {
+        content: 'De|';
+    }
+    18.2% {
+        content: 'D|';
+    }
+    19.5% {
+        content: '|';
+    }
+    20.8% {
+        content: 'D|';
+    }
+    22.1% {
+        content: 'De|';
+    }
+    23.4% {
+        content: 'Dev|';
+    }
+    24.7% {
+        content: 'Deve|';
+    }
+    26% {
+        content: 'Devel|';
+    }
+    27.3% {
+        content: 'Develo|';
+    }
+    28.6% {
+        content: 'Develop|';
+    }
+    29.9% {
+        content: 'Develope|';
+    }
+    31.2% {
+        content: 'Developer|';
+    }
+    32.5% {
+        content: 'Develope|';
+    }
+    33.8% {
+        content: 'Develop|';
+    }
+    35.1% {
+        content: 'Develo|';
+    }
+    36.4% {
+        content: 'Devel|';
+    }
+    37.7% {
+        content: 'Deve|';
+    }
+    39% {
+        content: 'Dev|';
+    }
+    40.3% {
+        content: 'De|';
+    }
+    41.6% {
+        content: 'D|';
+    }
+    42.9% {
+        content: '|';
+    }
+    44.2% {
+        content: 'F|';
+    }
+    45.5% {
+        content: 'Fr|';
+    }
+    46.8% {
+        content: 'Fre|';
+    }
+    48.1% {
+        content: 'Free|';
+    }
+    49.4% {
+        content: 'Freel|';
+    }
+    50.7% {
+        content: 'Freela|';
+    }
+    52% {
+        content: 'Freelan|';
+}
+    53.3% {
+        content: 'Freelanc|';
+}
+    54.6% {
+        content: 'Freelance|';
+}
+    55.9% {
+        content: 'Freelancer|';
+}
+    57.2% {
+        content: 'Freelance|';
+}
+    58.5% {
+        content: 'Freelanc|';
+}
+    59.8% {
+        content: 'Freelan|';
+}
+    61.1% {
+        content: 'Freela|';
+}
+    62.4% {
+        content: 'Freel|';
+}
+    63.7% {
+        content: 'Free|';
+}
+    65% {
+        content: 'Fre|';
+}
+    66.3% {
+        content: 'Fr|';
+}
+    67.6% {
+        content: 'F|';
+}
+    68.9% {
+        content: '|';
+}
+    70.2% {
+        content: 'P|';
+}
+    71.5% {
+        content: 'Ph|';
+}
+    72.8% {
+        content: 'Pho|';
+}
+    74.1% {
+        content: 'Phot|';
+}
+    75.4% {
+        content: 'Photo|';
+}
+    76.7% {
+        content: 'Photog|';
+}
+    78% {
+        content: 'Photogr|';
+}
+    79.3% {
+        content: 'Photogra|';
+}
+    80.6% {
+        content: 'Photograp|';
+}
+    81.9% {
+        content: 'Photograph|';
+}
+    83.2% {
+        content: 'Photographe|';
+}
+    84.5% {
+        content: 'Photographer|';
+}
+    85.8% {
+        content: 'Photographe|';
+}
+    87.1% {
+        content: 'Photograph|';
+}
+    88.4% {
+        content: 'Photograp|';
+}
+    89.7% {
+        content: 'Photogra|';
+}
+    91% {
+        content: 'Photogr|';
+}
+    92.3% {
+        content: 'Photog|';
+}
+    93.6% {
+        content: 'Photo|';
+}
+    94.9% {
+        content: 'Phot|';
+}
+    96.2% {
+        content: 'Pho|';
+}
+    97.5% {
+        content: 'Ph|';
+}
+    98.8% {
+        content: 'P|';
+}
+    99%, 100%{
+        content: '|';
+}
+}
+
+
+.about img {
+    border-radius: 10px;
+}
+
+.about h2 {
+    position: relative;
+}
+
+.about h2::after {
+    content: '';
+    height: 3px;
+    width: 20%;
+    background-color: #0078ff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.portfolio .item img {
+    cursor: pointer;
+}
+
+.services i {
+    width: 7rem;
+    height: 7rem;
+    font-size: 2.5rem;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+.statistics .stat-item i {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+}
+
+.services i:hover {
+   background-color: #0078ff;
+   color: white;
+    border: 10px solid #acd4ff;
+
+}
+
+
+.service-item {
+    border-radius: 10px;
+}
+
+.service-item p {
+    font-size: 0.9rem;
+}
+
+.card-body h4 a{
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+.contact h2 {
+    position: relative;
+}
+
+.contact h2::after {
+    content: '';
+    height: 3px;
+    width: 10%;
+    background-color: #0078ff;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+}
+
+.intouch li i {
+    margin-right: 2%;
+}
+
+
+.social-media i {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.6rem;
+    border: 4px solid #0078ff;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.social-media i:hover {
+    background-color: #0078ff;
+    color: white;
+     border: 4px solid #acd4ff;
+ 
+ }
+
+ .contact {
+    background-image: linear-gradient(rgba(0, 136, 233, 0.726), rgba(0, 122, 210, 0.5)), url(../images/testimonial/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer p {
+    line-height: 0.5;
+}
+
+footer {
+    height: 15vh;
+}
+
+.top a {
+    width: 35px;
+    height: 35px;
+    background-color: #0078ff;
+    border-radius: 50%;
+    position: fixed;
+    opacity: 70%;
+    border: solid white;
+    bottom: 8%;
+    right: 2%;
+    transition: 0.5s ease;
+}
+
+
+.top a:hover {
+    background-color: #469cff;
+}
+
+.top i {
+    font-size: 1.3rem;
+    transition: 1s ease;
+}
+
+.btn {
+    border-radius: 30px;
+}
